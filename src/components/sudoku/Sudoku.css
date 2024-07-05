@@ -1,0 +1,85 @@
+:root {
+  --normal-border: 2px solid black;
+  --bold-border: 0.25rem solid black;
+}
+
+button {
+  width: 7rem;
+  margin-inline: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background: none;
+  transition: all 0.5s;
+  box-shadow: 4px 3px lightblue;
+}
+
+button:hover {
+  background-color: beige;
+}
+
+.table-container {
+  margin-top: 2rem;
+  padding: 0.8rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+table {
+  width: 45vw;
+  aspect-ratio: 1/1;
+  max-width: 45rem;
+  max-height: 45rem;
+  min-width: 18rem;
+  min-height: 18rem;
+  aspect-ratio: square;
+  background: white;
+  border-collapse: collapse;
+}
+
+/* td{
+    border: 2px solid black;    
+} */
+
+input {
+  font-size: 1.5rem;
+  border: none;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  appearance: none;
+}
+
+.col-zero {
+  border-right: var(--normal-border);
+}
+.col-uno {
+  border-right: var(--normal-border);
+}
+.col-due {
+  border-right: var(--bold-border);
+}
+.col-tre {
+  border-right: var(--normal-border);
+}
+.col-quattro {
+  border-right: var(--normal-border);
+}
+.col-cinque {
+  border-right: var(--bold-border);
+}
+.col-sei {
+  border-right: var(--normal-border);
+}
+.col-sette {
+  border-right: var(--normal-border);
+}
+
+.large-row {
+  border-top: var(--bold-border);
+}
+
+.normal-row {
+  border-top: var(--normal-border);
+}
