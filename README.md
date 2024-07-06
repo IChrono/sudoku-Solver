@@ -3,6 +3,9 @@
 This is one of the exercises made during my React/Javascript learning journey.<br>
 The goal was to find an algorithm from scratch that resolves a classic 9x9 Sudoku. <br>Unknowingly, I fell into what is called the "Backtracking algorithm," which simply keeps track of the choices made and, if a choice leads to a dead end, it backtracks to try another option.
 
+<img src="https://github.com/IChrono/sudoku-Solver/assets/110775233/fb7fd66e-0ffd-44d9-8e41-c770ad7c59ac" width="500">
+
+
 ## Features
 
 When you load the page, you will find a ready to play board. <br>
