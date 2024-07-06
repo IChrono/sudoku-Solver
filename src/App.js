@@ -26,7 +26,6 @@ function App() {
               {char === " " ? "\u00A0" : char}
             </h1>
           ))}
-          {/* <h1 id="title-h1">Sudoku Resolver</h1> */}
         </div>
       </header>
       <div className="main">
@@ -35,11 +34,5 @@ function App() {
     </>
   );
 }
-
-// function BtnResolve(){
-//   return (
-//     <button onClick={}> </button>
-//   )
-// }
 
 export default App;

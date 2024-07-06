@@ -62,8 +62,6 @@ const Sudoku = () => {
     }
 
     if (isComplete) {
-      console.log(`Sudoku risolto.`);
-      console.log(cellsData);
       setIsSolving(false);
     }
   };
@@ -97,11 +95,8 @@ const Sudoku = () => {
     <>
       <div>
         <button onClick={() => setIsSolving(!isSolving)}>
-          {isSolving ? "Pause" : "Resolve"}
+          {isSolving ? "Pause" : "Solve"}
         </button>
-        {/* <button onClick={() => setIsSolving(false)}>
-          {isSolving ? "Pause" : "Play"}
-        </button> */}
         <button onClick={handleOnClickReset}>Reset</button>
       </div>
       <div className="table-container">
